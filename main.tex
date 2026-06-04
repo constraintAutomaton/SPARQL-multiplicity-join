@@ -61,7 +61,7 @@ We rule out both in the context of a CQ.
 
 \paragraph{Case (i).}
 For $|m(\mu)| > 1$, two distinct pairs of solution mappings must merge to the same $\mu$, which by \Cref{def_merge} requires an input bag to contain solution mappings with different domains, for instance $\Omega_1 = [\{?x \mapsto a\}, \{?y \mapsto b, ?x \mapsto a\}]$ and $\Omega_2 = [\{?y \mapsto b, ?x \mapsto a\}, \{?x \mapsto a\}]$.
-No CQ bag can have this shape: a triple pattern, or a BGP, binds a fixed set of variables, and a \texttt{JOIN} returns only the merges of compatible solution mappings, each over the union of the two input domains, and rejects the rest.
+No CQ bag can have this shape: a triple pattern, or a BGP, binds a fixed set of variables, and a \texttt{JOIN} returns the merges of compatible solution mappings, each defined over the union of the two input domains.
 Every bag therefore has a single fixed domain, so $|m(\mu)| \leq 1$.
 
 \paragraph{Case (ii).}
