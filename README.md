@@ -3,6 +3,8 @@
 A short, self-contained proof that, under SPARQL bag-set semantics, the `JOIN`
 operator cannot create duplicate results inside a conjunctive query.
 
+📄 **[Download the PDF](../../releases/latest/download/main.pdf)**
+
 ## Introduction / Context
 
 SPARQL is evaluated under **bag-set semantics**: an RDF knowledge graph (KG) is a
@@ -39,8 +41,9 @@ make watch    # rebuild on change (latexmk -pvc)
 make clean    # remove build artifacts
 ```
 
-Requires a TeX distribution with `latexmk`. The latest compiled PDF is also
-attached to the most recent [GitHub Release](../../releases/latest).
+Requires a TeX distribution with `latexmk`. You can also
+[download the latest compiled PDF](../../releases/latest/download/main.pdf),
+which is attached to the most recent [GitHub Release](../../releases/latest).
 
 ## License
 
